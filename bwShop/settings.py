@@ -49,8 +49,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'DjangoUeditor',
 ]
+REST_FRAMEWORK = {
+    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    # 'PAGE_SIZE':10,
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.AutoSchema'
+}
 # 使用自己的UserProfile，而不是系统的
 AUTH_USER_MODEL = 'users.UserProfile'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -136,3 +142,9 @@ USE_L10N = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+#上传图片
+# 设置上传文件的路径
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')   #指定根目录
