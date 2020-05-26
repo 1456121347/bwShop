@@ -25,7 +25,7 @@ urlpatterns = [
     # path('goods/',GoodsListViewSet.as_view(),name='goods-list'),
     path(r'',include(router.urls)),
     path('api-token-auth',views.obtain_auth_token),
-    path('jwt-auth',obtain_jwt_token),
+    path('login',obtain_jwt_token),
     path('api-auth/',include('rest_framework.urls')),
     path('docs/',include_docs_urls(title='DRF文档')),
     path('schema/',schema_view),

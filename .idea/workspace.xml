@@ -2,17 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f676a32-c538-4256-871b-75df2d7fd848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/alipay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/yunpian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/15_P_1448947257324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_20170719161405_249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_20170719161405_249_VXtw0x7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_20170719161405_249_vK49DiO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_20170719161435_381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_P_1448945810202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_P_1448945810202_lGp49nw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/2_P_1448945810202_tFI76bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/9_P_1448944791617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banner/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banner/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/banner/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/lyfs-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/lyfs-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/scsg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/scsg-2_G6LV34f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/scsg-2_s2g3L7M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/scsg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-1_HPZZvbI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-1_KDntI6h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-3_jG6lwp4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/brands/sxsp-3_p6QnMEd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/10_P_1448944572085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/11_P_1448944388277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/12_P_1448947547989.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/13_P_1448947460386.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/14_P_1448947354031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/15_P_1448947257324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/16_P_1448947194687.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/17_P_1448947102246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/18_P_1448947011435.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/19_P_1448946951581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/1_P_1449024889889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/20_P_1448946850602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/21_P_1448946793276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/22_P_1448946729629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/23_P_1448948070348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/24_P_1448948023823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/25_P_1448947875346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/26_P_1448947825754.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/27_P_1448947771805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/28_P_1448947699948.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/29_P_1448947631994.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/2_20170719161405_249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/2_20170719161414_628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/2_20170719161435_381.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/2_P_1448945810202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/30_P_1448948663450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/31_P_1448948598947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/32_P_1448948525620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/33_P_1448948479966.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/34_P_1448948399009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/35_P_1448948333610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/36_P_1448948234405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/37_P_1448949284365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/38_P_1448949220255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/39_P_1448949115481.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/3_P_1448945490837.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/40_P_1448949038702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/41_P_1448948980358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/42_P_1448948895193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/43_P_1448948762645.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/44_P_1448948850187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/45_P_1448946661303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/46_P_1448946598711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/47_P_1448946213263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/48_P_1448943988970.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/49_P_1448162819889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/4_P_1448945381985.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/50_P_1448946543091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/51_P_1448946466595.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/53_P_1495068879687.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/5_P_1448945270390.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/6_P_1448945167279.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/7_P_1448945104883.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/8_P_1448945032810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/9_P_1448944791617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/goods/images/生鲜_20170719161424_153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/message/images/3_P_1448945490837.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/goods/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/goods/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/alipay.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/alipay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/yunpian.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +102,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="230">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -36,14 +128,33 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+              <folding>
+                <element signature="e#31#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/yunpian.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="431">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -82,17 +193,19 @@
         <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/filters.py" />
-        <option value="$PROJECT_DIR$/bwShop/urls.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
-        <option value="$PROJECT_DIR$/bwShop/settings.py" />
-        <option value="$PROJECT_DIR$/utils/alipay.py" />
         <option value="$PROJECT_DIR$/utils/yunpian.py" />
+        <option value="$PROJECT_DIR$/utils/alipay.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/bwShop/settings.py" />
+        <option value="$PROJECT_DIR$/bwShop/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="825" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="785" />
+    <option name="y" value="55" />
     <option name="width" value="1060" />
     <option name="height" value="945" />
   </component>
@@ -117,12 +230,13 @@
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="bwShop" type="462c0819:PsiDirectoryNode" />
-              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="bwShop" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
@@ -332,12 +446,12 @@
       <workItem from="1590300332680" duration="4528000" />
       <workItem from="1590366338187" duration="7154000" />
       <workItem from="1590386672279" duration="7450000" />
-      <workItem from="1590453773893" duration="4910000" />
+      <workItem from="1590453773893" duration="9224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25394000" />
+    <option name="totallyTimeSpent" value="29708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,14 +463,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="40" width="848" height="756" extended-state="1" />
+    <frame x="628" y="44" width="848" height="756" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1443038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18101266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49873096" visible="true" weight="0.35096154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873096" visible="true" weight="0.35096154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +480,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32852563" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50126904" side_tool="true" weight="0.29166666" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37019232" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40064102" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -560,9 +675,6 @@
     <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -584,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -604,30 +706,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/media/9_P_1448944791617.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/alipay.py">
+    <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="-121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+          <folding>
+            <element signature="e#31#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="230">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/yunpian.py">
+    <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="118">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

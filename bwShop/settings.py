@@ -58,6 +58,21 @@ JWT_AUTH = {
     'JWT_AUTH_HEADER_PREFIX': 'JWT',
 }
 
+# #手机号码正则表达式
+# REGEX_MOBILE = "^(?:\+?86)?1(?:3\d{3}|5[^4\D]\d{2}|8\d{3}|7[^0129\D](?(?<=4)(?:0\d|1[0-2]|9\d)|\d{2})|9[189]\d{2}|66\d{2})\d{6}$"
+
+# 手机号码正则表达式
+REGEX_MOBILE = "^1[3658]\d{9}$|^147\d{8}$|^176\d{8}$"
+
+#云片网设置
+APIKEY = "703785d990b7b92e6798dfc0521d2ae1"
+
+
+#支付宝相关配置
+private_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/private_2048.txt')
+ali_pub_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/alipay_key_2048.txt')
+
+
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend'
 )

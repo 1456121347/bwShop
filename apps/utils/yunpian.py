@@ -23,6 +23,7 @@ class YunPian(object):
 
 
 if __name__ == "__main__":
-    yun_pian = YunPian("")
-    yun_pian.send_sms("2020", "")
+    # 写自己的
+    yun_pian = YunPian("703785d990b7b92e6798dfc0521d2ae1")
+    yun_pian.send_sms("2020", "16634331737")
 
