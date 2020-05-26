@@ -7,16 +7,17 @@ from rest_framework import generics
 from rest_framework import viewsets
 
 
-from goods.serializers import GoodsSerializer, CategorySerializer
-from .models import Goods, GoodsCategory
+from goods.serializers import GoodsSerializer,CategorySerializer
+from .models import Goods,GoodsCategory
 from .filters import GoodsFilter
-from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import filters
+
 # 自定义分页
 from rest_framework.pagination import PageNumberPagination
 
 class GoodsPagination(PageNumberPagination):
-    page_size = 10
+    page_size = 12
     page_size_query_param = 'page_size'
     page_query_param = 'page'
     max_page_size = 100
@@ -35,8 +36,13 @@ class GoodsPagination(PageNumberPagination):
 #     queryset = Goods.objects.all()
 #     serializer_class = GoodsSerializer
 
-
-class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
+class GoodsListViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.GenericViewSet):
+    '''
+        list:
+            商品列表，分页，搜索，过滤，排序
+        retrieve:
+            获取商品详情
+    '''
     pagination_class = GoodsPagination
     queryset = Goods.objects.all()
     serializer_class = GoodsSerializer
@@ -46,11 +52,11 @@ class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
     filter_class = GoodsFilter
 
     #设置搜索
-    search_fields = ("=name",'goods_brief','goods_desc')
+    search_fields = ("name",'goods_brief','goods_desc')
     # 排序
     ordering_fields = ('sold_num','shop_price')
 
 
 class CategoryViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.GenericViewSet):
     queryset = GoodsCategory.objects.filter(category_type=1)
-    serializer_class = CategorySerializerass = CategorySerializer
+    serializer_class = CategorySerializer

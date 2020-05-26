@@ -60,6 +60,7 @@ JWT_AUTH = {
 
 # #手机号码正则表达式
 # REGEX_MOBILE = "^(?:\+?86)?1(?:3\d{3}|5[^4\D]\d{2}|8\d{3}|7[^0129\D](?(?<=4)(?:0\d|1[0-2]|9\d)|\d{2})|9[189]\d{2}|66\d{2})\d{6}$"
+APPEND_SLASH=False
 
 # 手机号码正则表达式
 REGEX_MOBILE = "^1[3658]\d{9}$|^147\d{8}$|^176\d{8}$"
@@ -74,7 +75,7 @@ ali_pub_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/alipay_key_2048.txt')
 
 
 AUTHENTICATION_BACKENDS = (
-    'users.views.CustomBackend'
+    'users.views.CustomBackend',
 )
 
 REST_FRAMEWORK = {
@@ -96,13 +97,13 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    # 'django.middleware.common.CommonMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CORS_ORIGIN_ALLOW_ALL = True
 ROOT_URLCONF = 'bwShop.urls'
 
 TEMPLATES = [
