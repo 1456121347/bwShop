@@ -47,20 +47,41 @@ INSTALLED_APPS = [
     'django_filters',
 
     'rest_framework',
+    'rest_framework.authtoken',
+    'coreschema',
     'DjangoUeditor',
 ]
+
+import datetime
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',
+}
+
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend'
+)
+
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',  # 配置验证方式为Token验证
+    ),
     # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     # 'PAGE_SIZE':10,
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.AutoSchema'
+
 }
 # 使用自己的UserProfile，而不是系统的
 AUTH_USER_MODEL = 'users.UserProfile'
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    # 'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
