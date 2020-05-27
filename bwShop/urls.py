@@ -9,16 +9,23 @@ from rest_framework.authtoken import views
 from rest_framework_jwt.views import obtain_jwt_token
 
 from bwShop.settings import MEDIA_ROOT
-from goods.views import GoodsListViewSet,CategoryViewSet
+from goods.views import GoodsListViewSet, CategoryViewSet, BannerViewset, IndexCategoryViewset
 from users.views import SmsCodeViewset,UserViewset
-from user_operation.views import UserFavViewset
+from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
+from trade.views import ShoppingCartViewset,OrderViewset
+
 router = routers.DefaultRouter()
 router.register('goods',GoodsListViewSet)
 router.register('categorys',CategoryViewSet,basename='categorys')
 router.register('code',SmsCodeViewset,basename='code')
 router.register('users',UserViewset,basename="users")
-#收藏
-router.register(r'userfavs', UserFavViewset, basename="userfavs")
+router.register('userfavs',UserFavViewset,basename='userfavs')
+router.register('messages',LeavingMessageViewset,basename='messages')
+router.register('address',AddressViewset , basename="address")
+router.register('shopcarts',ShoppingCartViewset,basename='shopcarts')
+router.register('orders',OrderViewset,basename='orders')
+router.register('banners',BannerViewset,basename='banners')
+router.register('indexgoods',IndexCategoryViewset,basename='indexgoods')
 
 
 schema_view = get_schema_view(title='corejson')
@@ -33,6 +40,6 @@ urlpatterns = [
     path('api-token-auth/',views.obtain_auth_token),
     path('login/', obtain_jwt_token ),
     path('api-auth/',include('rest_framework.urls')),
-    path('docs/',include_docs_urls(title='DRF文档')),
-    path('schema/',schema_view),
+    path('docs/',include_docs_urls(title='生鲜项目的文档')),
+    path('schema/',schema_view)
 ]
