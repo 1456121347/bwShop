@@ -8,7 +8,7 @@ class BaseSetting(object):
 
 class GlobalSettings(object):
     site_title = "海马生鲜后台管理系统"
-    site_footer = "北京网络职业技术学院 - 2020"
+    site_footer = "海马生鲜管理系统 - 2020"
     menu_style = "accordion"
 
 
