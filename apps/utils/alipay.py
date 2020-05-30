@@ -138,13 +138,13 @@ if __name__ == "__main__":
 # 测试用例
     alipay = AliPay(
         # 沙箱里面的appid值
-        appid="2021001165627070",
+        appid="2016102200734904",
         #notify_url是异步的url
         app_notify_url="http://127.0.0.1:8000/",
         # 我们自己商户的密钥
         app_private_key_path="../trade/keys/private_2048.txt",
         # 支付宝的公钥
-        alipay_public_key_path="../trade/keys/alipay_key_2048.txt", # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
+        alipay_public_key_path="../trade/keys/public_2048.txt",  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         # debug为true时使用沙箱的url。如果不是用正式环境的url
         debug=True,  # 默认False,
         return_url="http://127.0.0.1:8000/alipay/return/"

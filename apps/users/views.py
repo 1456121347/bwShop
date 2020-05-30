@@ -36,10 +36,10 @@ class CustomBackend(ModelBackend):
                 return user
         except Exception as e:
                 # 异常信息UserProfile matching query does not exist
-            raise serializers.ValidationError({'username_error_field': '账户输入错误'})
-            return None
-        else:
-            raise serializers.ValidationError({'password_error_field': '密码输入错误'})
+        #     raise serializers.ValidationError({'username_error_field': '账户输入错误'})
+        #     return None
+        # else:
+        #     raise serializers.ValidationError({'password_error_field': '密码输入错误'})
             return None
 
 class SmsCodeViewset(CreateModelMixin,viewsets.GenericViewSet):
@@ -87,7 +87,7 @@ class UserViewset(mixins.CreateModelMixin,mixins.RetrieveModelMixin,mixins.Updat
     '''
     用户注册
     '''
-    # serializer_class = UserRegSerializer
+    serializer_class = UserRegSerializer
     # queryset = User.objects.all()
     queryset = User.objects.all()
     authentication_classes = (JSONWebTokenAuthentication, authentication.SessionAuthentication)

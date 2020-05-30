@@ -24,6 +24,15 @@ class UserFavViewset(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.Crea
     authentication_classes = (JSONWebTokenAuthentication, SessionAuthentication)
     # 搜索的字段
     lookup_field = 'goods_id'
+    # 收藏加一
+    def get_queryset(self):
+        return UserFav.objects.filter(user=self.request.user)
+
+    def perform_create(self, serializer):
+        instance = serializer.save()
+        goods = instance.goods
+        goods.fav_num += 1
+        goods.save()
 
     # 动态选择serializer
     def get_serializer_class(self):

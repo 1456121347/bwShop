@@ -12,11 +12,12 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import sys
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0,BASE_DIR)
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 sys.path.insert(0,os.path.join(BASE_DIR,'extra_apps'))
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
@@ -45,7 +46,7 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'django_filters',
-
+    'social_django',
     'rest_framework',
     'rest_framework.authtoken',
     'coreschema',
@@ -58,13 +59,13 @@ JWT_AUTH = {
     'JWT_AUTH_HEADER_PREFIX': 'JWT',
 }
 
-# #手机号码正则表达式
-# REGEX_MOBILE = "^(?:\+?86)?1(?:3\d{3}|5[^4\D]\d{2}|8\d{3}|7[^0129\D](?(?<=4)(?:0\d|1[0-2]|9\d)|\d{2})|9[189]\d{2}|66\d{2})\d{6}$"
+# 手机号码正则表达式
+REGEX_MOBILE = "^1[3568]\d{9}$|^147\d{8}$|^176\d{8}$"
 APPEND_SLASH=False
 
 
-# 手机号码正则表达式
-REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$"
+# # 手机号码正则表达式
+# REGEX_MOBILE = "^1[3568]\d{9}$|^147\d{8}$|^176\d{8}$"
 
 #云片网设置
 APIKEY = "703785d990b7b92e6798dfc0521d2ae1"
@@ -77,6 +78,10 @@ ali_pub_key_path = os.path.join(BASE_DIR, 'apps/trade/keys/alipay_key_2048.txt')
 
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
+    'social_core.backends.weibo.WeiboOAuth2',
+    'social_core.backends.qq.QQOAuth2',
+    'social_core.backends.weixin.WeixinOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
 )
 
 REST_FRAMEWORK = {
@@ -105,6 +110,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ORIGIN_ALLOW_ALL = True
+
+
 ROOT_URLCONF = 'bwShop.urls'
 
 TEMPLATES = [
@@ -119,6 +126,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+               #第三方登录
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -132,13 +142,13 @@ WSGI_APPLICATION = 'bwShop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bwshop',
-        'USER':'root',
-        'PASSWORD':'xi19970410',
-        'HOST':'127.0.0.1',
+        'ENGINE': 'django.db.backends.mysql',    # 数据库引擎
+        'NAME': 'bwshop',   # 你要存储数据的库名，事先要创建之
+        'USER':'root',      # 数据库用户名
+        'PASSWORD':'xi19970410',   # 密码
+        'HOST':'127.0.0.1',  # 数据库使用的端口
         'OPTIONS':{
-            'init_command':'SET default_storage_engine=INNODB;'
+            'init_command':'SET default_storage_engine=INNODB;',
         }
     }
 }
@@ -180,9 +190,31 @@ USE_L10N = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR,'static'),
+)
 
 #上传图片
 # 设置上传文件的路径
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')   #指定根目录
+
+
+# 第三方登录，里面的值是你的开放平台对应的值，
+# APP Secret和App key配置，settings里面
+
+#qq
+SOCIAL_AUTH_QQ_SECRET = '9f6847c4f4a593e31af99d58269c8af2'
+SOCIAL_AUTH_QQ_KEY = '3946853933'
+
+# 微信
+SOCIAL_AUTH_WEIXIN_SECRET = '9f6847c4f4a593e31af99d58269c8af2'
+SOCIAL_AUTH_WEIXIN_KEY = '3946853933'
+
+# 微博
+SOCIAL_AUTH_WEIBO_SECRET = '9f6847c4f4a593e31af99d58269c8af2'
+SOCIAL_AUTH_WEIBO_KEY = '3946853933'
+
+
+#登录成功后跳转到首页
+SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'

@@ -55,7 +55,13 @@ class GoodsListViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.
     search_fields = ("name",'goods_brief','goods_desc')
     # 排序
     ordering_fields = ('sold_num','shop_price')
-
+    # 点击数加一
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        instance.click_num += 1
+        instance.save()
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)
 
 class CategoryViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.GenericViewSet):
     queryset = GoodsCategory.objects.filter(category_type=1)

@@ -13,7 +13,7 @@ from goods.views import GoodsListViewSet, CategoryViewSet, BannerViewset, IndexC
 from users.views import SmsCodeViewset,UserViewset
 from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
 from trade.views import ShoppingCartViewset, OrderViewset, AlipayView
-
+from django.views.generic import TemplateView
 router = routers.DefaultRouter()
 router.register('goods',GoodsListViewSet)
 router.register('categorys',CategoryViewSet,basename='categorys')
@@ -42,5 +42,8 @@ urlpatterns = [
     path('api-auth/',include('rest_framework.urls')),
     path('docs/',include_docs_urls(title='生鲜项目的文档')),
     path('schema/',schema_view),
-    path('alipay/return/',AlipayView.as_view())
+    path('alipay/return/',AlipayView.as_view()),
+    # 第三方登录
+    path('', include('social_django.urls', namespace='social')),
+    path('index/', TemplateView.as_view(template_name='index.html'), name='index'),
 ]

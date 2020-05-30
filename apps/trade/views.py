@@ -26,6 +26,35 @@ class ShoppingCartViewset(viewsets.ModelViewSet):
 
     lookup_field = "goods_id"
 
+    # 库存 加减一
+    def perform_create(self, serializer):
+        shop_cart = serializer.save()
+        goods = shop_cart.goods
+        goods.goods_num -= shop_cart.nums
+        goods.save()
+
+    def perform_destroy(self, instance):
+        goods = instance.goods
+        goods.goods_num += instance.nums
+        goods.save()
+        instance.delete()
+
+    def perform_update(self, serializer):
+        existed_record = ShoppingCart.objects.get(id=serializer.instance.id)
+        existed_nums = existed_record.nums
+        saved_record = serializer.save()
+        nums = saved_record.nums-existed_nums
+        goods = saved_record.goods
+        goods.goods_num -= nums
+        goods.save()
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return ShopCartDetailSerializer
+        else:
+            return ShopCartSerializer
+
+
     def get_queryset(self):
         return ShoppingCart.objects.filter(user=self.request.user)
 
@@ -98,7 +127,7 @@ class AlipayView(APIView):
 
         # 3. 生成ALipay对象
         alipay = AliPay(
-            appid="2016101900726352",
+            appid="2016102200734904",
             app_notify_url="http://127.0.0.1:8000/alipay/return/",
             app_private_key_path=private_key_path,
             alipay_public_key_path=ali_pub_key_path,  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
@@ -136,7 +165,7 @@ class AlipayView(APIView):
 
         #生成一个Alipay对象
         alipay = AliPay(
-            appid="2016101900726352",
+            appid="2016102200734904",
             app_notify_url="http://127.0.0.1:8000/alipay/return/",
             app_private_key_path=private_key_path,
             alipay_public_key_path=ali_pub_key_path,  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,

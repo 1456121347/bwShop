@@ -2,19 +2,348 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f676a32-c538-4256-871b-75df2d7fd848" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/trade/keys/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/trade/keys/private_2048.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/trade/keys/pub_2048.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/trade/keys/public_2048.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/trade/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/trade/keys/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/trade/keys/private_2048.txt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/keys/private_2048.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/trade/keys/pub_2048.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/trade/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/trade/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/trade/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user_operation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user_operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/utils/alipay.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/alipay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/yunpian.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwShop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/UEditorSnapscreen.exe" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/UEditorSnapscreen.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/completeDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/completeDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/editor_api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/multiDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/multiDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/renderInTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/renderInTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/resetDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/resetDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/server/getContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/background/background.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/background/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/background/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/background/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/help/help.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/help/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/help/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/link/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/map/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/music/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/music/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/dragicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre0.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre1.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre2.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre3.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre4.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/template/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/addimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/button.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/deletedisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/deleteenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/listbackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/en/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/Uploader.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/Uploader.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/action_crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/action_crawler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/action_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/action_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/action_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/action_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/php/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/anchor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/button-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/charts.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/fileScan.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/fileScan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/highlighted.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/icons-all.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/loaderror.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/lock.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/sortable.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/spacer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/sparator_v.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/videologo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/word.gif" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/default/images/wordpaste.png" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/themes/iframe.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/iframe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.swf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/ueditor.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/ueditor.parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/templates/ueditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/templates/ueditor_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/DjangoUeditor/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exta_apps/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,25 +356,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+            <state relative-caret-position="30">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="35" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +404,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/goods/adminx.py" />
         <option value="$PROJECT_DIR$/apps/trade/adminx.py" />
         <option value="$PROJECT_DIR$/apps/trade/models.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/adminx.py" />
@@ -77,50 +414,64 @@
         <option value="$PROJECT_DIR$/db_tools/import_category_data.py" />
         <option value="$PROJECT_DIR$/utils/yunpian.py" />
         <option value="$PROJECT_DIR$/utils/alipay.py" />
-        <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/apps/users/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/users/signals.py" />
         <option value="$PROJECT_DIR$/apps/goods/apps.py" />
         <option value="$PROJECT_DIR$/apps/goods/filters.py" />
         <option value="$PROJECT_DIR$/apps/goods/models.py" />
         <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
         <option value="$PROJECT_DIR$/apps/goods/views_base.py" />
-        <option value="$PROJECT_DIR$/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/apps/trade/apps.py" />
         <option value="$PROJECT_DIR$/apps/trade/view_base.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/apps.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/serializers.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/view_base.py" />
-        <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
         <option value="$PROJECT_DIR$/apps/users/view_base.py" />
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+        <option value="$PROJECT_DIR$/apps/users/signals.py" />
+        <option value="$PROJECT_DIR$/apps/users/apps.py" />
+        <option value="$PROJECT_DIR$/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
         <option value="$PROJECT_DIR$/apps/trade/keys/pub_2048.txt" />
-        <option value="$PROJECT_DIR$/bwShop/settings.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt.url" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/private_2048.txt.url" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/public_2048.txt.url" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/public_2048.txt.txt" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/private_2048.txt.txt" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt.txt" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/apps/trade/keys/public_2048.txt" />
         <option value="$PROJECT_DIR$/apps/trade/keys/private_2048.txt" />
         <option value="$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt" />
-        <option value="$PROJECT_DIR$/bwShop/urls.py" />
-        <option value="$PROJECT_DIR$/apps/trade/serializers.py" />
         <option value="$PROJECT_DIR$/apps/trade/views.py" />
         <option value="$PROJECT_DIR$/apps/utils/alipay.py" />
+        <option value="$PROJECT_DIR$/apps/trade/serializers.py" />
+        <option value="$PROJECT_DIR$/bwShop/settings.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/social_core/actions.py" />
+        <option value="$PROJECT_DIR$/bwShop/urls.py" />
+        <option value="$PROJECT_DIR$/apps/goods/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/trade/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/users/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="802" />
-    <option name="y" value="76" />
-    <option name="width" value="1105" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="637" />
+    <option name="y" value="55" />
+    <option name="width" value="1140" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,14 +488,25 @@
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="bwShop" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="trade" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="bwShop" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="trade" type="462c0819:PsiDirectoryNode" />
-              <item name="keys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="user_operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
@@ -154,18 +516,39 @@
             </path>
             <path>
               <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwShop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/trade/keys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,15 +561,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\django1\bwShop\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django1\bwShop\static" />
       <recent name="D:\django1\bwShop\apps\trade\keys" />
+      <recent name="D:\django1\bwShop\apps\trade" />
       <recent name="D:\django1\bwShop\apps\user_operation" />
       <recent name="D:\django1\bwShop\apps\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\django1\bwShop\templates" />
+      <recent name="D:\django1\bwShop\static" />
       <recent name="D:\django1\bwShop" />
-      <recent name="D:\django1\bwShop\apps\trade" />
+      <recent name="D:\django1\bwShop\apps\trade\keys" />
+      <recent name="D:\django1\bwShop\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.alipay">
+  <component name="RunManager" selected="Django server.bwShop">
     <configuration name="alipay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bwShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,7 +749,12 @@
       <workItem from="1590386672279" duration="7450000" />
       <workItem from="1590453773893" duration="20500000" />
       <workItem from="1590548306603" duration="9636000" />
-      <workItem from="1590626643945" duration="5849000" />
+      <workItem from="1590626643945" duration="18933000" />
+      <workItem from="1590712996896" duration="26891000" />
+      <workItem from="1590746804296" duration="2626000" />
+      <workItem from="1590803475118" duration="6996000" />
+      <workItem from="1590818927139" duration="1468000" />
+      <workItem from="1590820478900" duration="3078000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;用户信息，我的收藏，留言&quot;">
       <created>1590489177890</created>
@@ -378,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590551211471</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;支付宝支付（公钥，私钥，支付宝公钥）&quot;">
+      <created>1590633930960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590633930960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56469000" />
+    <option name="totallyTimeSpent" value="110612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,23 +793,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="642" y="61" width="884" height="720" extended-state="0" />
+    <frame x="510" y="44" width="912" height="720" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20217918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.035128806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49873096" visible="true" weight="0.5102041" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4642857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8466042" visible="true" weight="0.6360544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32852563" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3282313" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32852563" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50126904" side_tool="true" weight="0.29166666" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42857143" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15339579" side_tool="true" weight="0.42517006" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4490085" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,13 +824,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;用户信息，我的收藏，留言&quot;" />
     <MESSAGE value="&quot;购物车，订单管理，首页&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;购物车，订单管理，首页&quot;" />
+    <MESSAGE value="&quot;支付宝支付（公钥，私钥，支付宝公钥）&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bwShop$category_data.coverage" NAME="category_data Coverage Results" MODIFIED="1590367071060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools/data" />
     <SUITE FILE_PATH="coverage/bwShop$import_goods_data.coverage" NAME="import_goods_data Coverage Results" MODIFIED="1590487810978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
     <SUITE FILE_PATH="coverage/bwShop$pagination.coverage" NAME="pagination Coverage Results" MODIFIED="1590488425767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework" />
-    <SUITE FILE_PATH="coverage/bwShop$alipay.coverage" NAME="alipay Coverage Results" MODIFIED="1590633307670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/utils" />
+    <SUITE FILE_PATH="coverage/bwShop$alipay.coverage" NAME="alipay Coverage Results" MODIFIED="1590820302912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/utils" />
     <SUITE FILE_PATH="coverage/bwShop$yunpian.coverage" NAME="yunpian Coverage Results" MODIFIED="1590457156882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/bwShop$signals.coverage" NAME="signals Coverage Results" MODIFIED="1590630391032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/users" />
     <SUITE FILE_PATH="coverage/bwShop$product_data.coverage" NAME="product_data Coverage Results" MODIFIED="1590367178583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools/data" />
@@ -439,97 +839,6 @@
     <SUITE FILE_PATH="coverage/bwShop$settings.coverage" NAME="settings Coverage Results" MODIFIED="1590563598714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bwShop" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/DjangoUeditor/static/ueditor/php/config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_tools/data/category_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_tools/data/product_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/9_P_1448944791617.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/middleware/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_tools/import_goods_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_tools/import_category_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/pagination.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="199" column="13" lean-forward="true" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -567,16 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/trade/view_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -597,16 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -622,16 +911,6 @@
         <state relative-caret-position="-226" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1552">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/user_operation/view_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,26 +920,6 @@
           <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="145" column="24" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-          <folding>
-            <element signature="e#26#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,35 +934,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/banner/1_P_1449024889889.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/banner/2_P_1448945810202.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4170">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="e#31#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/view_base.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1727">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,78 +991,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/banner/1_P_1449024889889.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/banner/2_P_1448945810202.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/tests.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/pagination.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="107">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="450">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.entry.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework_jwt/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/keys/pub_2048.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/keys/private_2048.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="9" lean-forward="true" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1741">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="250">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#31#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="15" lean-forward="true" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="70" column="19" lean-forward="true" selection-end-line="70" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/keys/alipay_key_2048.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="392" selection-start-line="1" selection-start-column="392" selection-end-line="1" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/keys/private_2048.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="1592" selection-start-line="1" selection-start-column="1592" selection-end-line="1" selection-end-column="1592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/keys/public_2048.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="392" selection-start-line="1" selection-start-column="392" selection-end-line="1" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/social_core/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/social_core/actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/social_core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bwShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="146">
+          <caret line="209" column="4" lean-forward="true" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
@@ -795,41 +1181,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bwShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
+    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="29" selection-start-column="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/trade/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="2" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py">
+    <entry file="file://$PROJECT_DIR$/apps/trade/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="46" selection-start-column="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
